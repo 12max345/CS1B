@@ -1,6 +1,7 @@
 #pragma once
 
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -12,12 +13,12 @@ private:
 
 public:
 	Book();
-	Book(int isbn, string title);
+	Book(int bookNum, string bookName);
 	~Book();
 
 	void setIsbn(int isbn);
 	void setTitle(string title);
-	int getIsbn(int isbn)const;
-	string getTitle(string title)const;
-	void display();
+	int getIsbn()const;
+	string getTitle()const;
+	void display()const;
 };
