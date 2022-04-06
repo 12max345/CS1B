@@ -15,5 +15,15 @@ Rectangle::Rectangle(double w, double l)
 
 Rectangle::~Rectangle()
 {
+	cout << "Med is not here.\n";
+}
 
+void Rectangle::setWidth(double width)
+{
+	this->width = width;
+}
+
+void Rectangle::setLength(double l)
+{
+	length = l;
 }
