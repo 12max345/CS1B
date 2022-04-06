@@ -1,5 +1,19 @@
+#include "Rectangle.h"
 
-int main()
+Rectangle::Rectangle()
 {
-    cout << "Hello World!\n";
+	width = 0.0;
+	length - 0.0;
+	cout << "Med is calling.\n";
+}
+
+Rectangle::Rectangle(double w, double l)
+{
+	width = w;
+	length = l;
+}
+
+Rectangle::~Rectangle()
+{
+
 }
