@@ -1,5 +1,7 @@
 #include "Payroll.h"
 
+Payroll::~Payroll() {}
+
 void Payroll::setHours(double h) 
 {
 	if (h > 60)
