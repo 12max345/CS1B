@@ -1,6 +1,14 @@
 #include "Payroll.h"
 
-int main()
+void Payroll::setHours(double h) 
 {
-    cout << "Hello World!\n";
+	if (h > 60)
+	{
+		cout << "Invalid number of hours.\n";
+		exit(EXIT_FAILURE);
+	}
+	else
+	{
+		hours = h;
+	}
 }

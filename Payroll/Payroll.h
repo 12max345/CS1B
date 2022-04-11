@@ -12,10 +12,10 @@ private:
 
 public:
 	Payroll() { hours = 0.0; payRate = 0.0; }
-	Payroll(double h, double r);
 	~Payroll();
-	void setHours(double hours);
-	void setPayRate(double payRate);
-	double getHours();
-	double getPayRate();
+	void setHours(double h);
+	void setPayRate(double r) { payRate = r; }
+	double getHours()const { return hours; }
+	double getPayRate()const { return payRate; }
+	double getTotal()const { return hours * payRate; }
 };
