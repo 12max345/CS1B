@@ -1,0 +1,5 @@
+﻿  Fantasy.cpp
+C:\Users\amalikyar0\Downloads\CS1B\Book2\Fantasy.cpp(17,14): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  Fiction.cpp
+  Generating Code...
+  Book2.vcxproj -> C:\Users\amalikyar0\Downloads\CS1B\Book2\Debug\Book2.exe
